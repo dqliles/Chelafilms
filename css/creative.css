@@ -377,7 +377,16 @@ header .header-content .header-content-inner p {
     transition: all .35s;
     
 }
-
+#recent:hover,
+#recent:focus,
+#recent.focus,
+#recent:active,
+#recent.active,
+.open > .dropdown-toggle.btn-default {
+    border-color: #ededed;
+    color: #222;
+    background-color: #f2f2f2;
+}
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
