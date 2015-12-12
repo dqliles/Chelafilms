@@ -368,6 +368,16 @@ header .header-content .header-content-inner p {
     transition: all .35s;
 }
 
+.recent{
+    border-color: #fff;
+    color: #fff;
+    background-color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    
+}
+
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
