@@ -368,7 +368,7 @@ header .header-content .header-content-inner p {
     transition: all .35s;
 }
 
-.recent{
+#recent{
     border-color: #fff;
     color: #fff;
     background-color: #f05f40;
