@@ -53,6 +53,7 @@ p {
 
 .bg-primary {
     background-color: #000;
+    margin-top: -74px;
 }
 
 .bg-dark {
