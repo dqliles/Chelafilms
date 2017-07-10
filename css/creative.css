@@ -280,18 +280,40 @@ header .header-content .header-content-inner p {
     header{
         background-image: url(../img/bg.jpg);
     }
+    
+    #recent{
+    border-color: #fff;
+    color: #222;
+    background-color: #FFFFFF;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    -webkit-animation-iteration-count: 5;
+}
 }
 @media(max-width:1024px) {
     .bgvideo{
         display:none;
-        
+        header{
+        background-image:none;
+        }
     }
+    
+    #recent{
+    border-color: #fff;
+    color: #222;
+    background-color: #FFFFFF;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    -webkit-animation-iteration-count: 5;
+}
 }
 
-@media(min-width:1024px) {
+@media(min-width:1025px) {
     header{
-        background-image:none;
-    }
+    background-image:none;
+}
 }
 
 .service-box p {
@@ -303,6 +325,7 @@ header .header-content .header-content-inner p {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+    padding: 10px 0px;
 }
 
 
@@ -374,9 +397,10 @@ header .header-content .header-content-inner p {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    -webkit-animation-iteration-count: 5;
 }
     
-}
+
 #recent:hover,
 #recent:focus,
 #recent.focus,
@@ -385,7 +409,7 @@ header .header-content .header-content-inner p {
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
     color: #222;
-    background-color: #C1C1C1;
+    background-color: #337ab7;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -516,6 +540,9 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+#vid1{
+    margin:auto;
 }
 
 body {
